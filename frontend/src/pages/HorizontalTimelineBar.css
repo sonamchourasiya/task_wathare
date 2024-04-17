@@ -1,0 +1,47 @@
+
+
+.horizontal-timeline-outerlayer {
+  margin-left: 50px; 
+  margin-right: 30px; 
+  border-bottom: 4px solid black;
+}
+
+.horizontal-timeline-bar {
+  height: 50px; 
+  display: flex;
+}
+
+.timeline-bar {
+  height: 100%;
+  width: calc(100% / 3); 
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+
+.labels-outerlayer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  text-align: center;
+}
+
+.first-label {
+  text-align: left;
+}
+
+.last-label {
+  text-align: right;
+}
